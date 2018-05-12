@@ -27,6 +27,10 @@ public class PlayerContorlller : MonoBehaviour {
 	void FixedUpdate(){
 		float moveHorizontal = Input.GetAxis("Horizontal");
 		float moveVertical = Input.GetAxis("Vertical");
+		
+		//"오버테일 회장 안호준은 일을 하라"
+		//"알고리즘 내용 끝나니까 일을 안하네ㅉㅉ"
+		//군대나 가야지
 
 		Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
 
